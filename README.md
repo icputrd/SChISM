@@ -37,3 +37,8 @@ It's better to run the following two steps in tmux so that the server is always 
 ```
 Now you should be able to see the clusters at: http://localhost:8000/Cluster-HTMLs/ClusterAll1Million/
 
+## Docker
+```
+docker build . -t <docker_image_name>
+docker run --gpus all -it --name <container_name> <docker_image_name> bash
+```
