@@ -40,5 +40,5 @@ Now you should be able to see the clusters at: http://localhost:8000/Cluster-HTM
 ## Docker
 ```
 docker build . -t <docker_image_name>
-docker run --gpus all -it --name <container_name> <docker_image_name> bash
+bash docker_run.sh run 
 ```
